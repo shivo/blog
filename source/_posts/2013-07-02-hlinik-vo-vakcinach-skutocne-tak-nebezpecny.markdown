@@ -3,7 +3,7 @@ layout: post
 title: "Hliník vo vakcínach: skutočne tak nebezpečný?"
 date: 2013-07-02 11:55
 comments: true
-categories: očkovanie
+categories: [očkovanie, zdravý rozum, logika]
 ---
 Možno ste už aj vy o tom počuli. Vakcíny sú nebezpečné.  Obsahujú toxické látky,
 ktoré významnou mierou pôsobia na nervový a imunitný systém dieťaťa. Takéto

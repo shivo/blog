@@ -39,4 +39,18 @@ body {
 
 aside.sidebar {
   border-top: 0;
+
+  li {
+    border: 0;
+    box-shadow: none;
+    padding: .1em 0;
+  }
+
+  section {
+    h1 {
+      border-bottom: 1px dashed darken($sidebar-bg, 15);
+      box-shadow: none;
+      margin-bottom: .5em;
+    }
+  }
 }
