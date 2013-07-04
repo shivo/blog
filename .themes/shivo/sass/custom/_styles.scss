@@ -1,2 +1,42 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+body {
+  > header {
+    background: inherit;
+    h1 {
+        display: inline;
+        margin-right: .5em;
+    }
+    h2 {
+        display: inline;
+    }
+  }
+
+  > nav {
+    background: inherit;
+    border: 0;
+
+    form {
+      .search {
+        background: inherit;
+        @include border-radius(0);
+        box-shadow: none;
+        border:1px solid lighten($subtitle-color, 15);
+      }
+    }
+  }
+
+  > div {
+    border: 1px solid lighten($subtitle-color, 5);
+    //@include border-radius(10px);
+  }
+
+  > footer {
+    background: inherit;
+    border: 0;
+  }
+}
+
+aside.sidebar {
+  border-top: 0;
+}
